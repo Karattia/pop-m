@@ -1,0 +1,51 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Space+Mono&display=swap');
+
+
+body {
+    margin: 0;
+    font-family:"Josefine Sans" , system-ui, -apple-system, BlinkMacSystemFont, 
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+header {
+    background-color: #000;
+}
+
+.navbar{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar > div p {
+    margin: 0; color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.nav-list a {
+list-style-type: none;
+}
+.nav-list-item a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.nav-list-item a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-list-item a: :hover{
+    text-decoration: underline;
+    color: aquamarine;
+    }
+
+    h1,h2,h3,h4,h5,h6{
+font-family:"Space-Mono"
+    }
+    
